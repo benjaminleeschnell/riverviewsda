@@ -1,0 +1,180 @@
+@import url(http://fonts.googleapis.com/css?family=Glass+Antiqua);
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display+SC);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+h3 {
+	font-family: Playfair Display SC;
+}
+
+.logo {
+	position: absolute;
+	left: 50px;
+	top: 35px;
+}
+
+.logo img {
+	max-width: 150px;
+}
+
+nav {
+	font-family: Lato;
+	position: absolute;
+	right: 35px;
+	top: 60px;
+}
+
+nav li {
+	float: left;
+	list-style-type: none;
+}
+
+nav a {
+	color: white;
+	padding: 10px 10px;
+	font-size: 1.2em;
+}
+
+.hero {
+	margin-top: -5px;
+	height: 70%;
+	color: white;
+	background: 
+	linear-gradient(
+      rgba(0, 31, 97, 0.5),
+      rgba(0, 31, 97, 0.5)
+    ),url('../img/church.jpg') center center fixed no-repeat;
+    background-size: cover;
+}
+
+.hero h1 {
+	font-family: Playfair Display SC;
+	padding: 16% 0 0 0;
+	font-size: 4.5em;
+	text-align: center;
+	line-height: 1em;
+	color: white;
+}
+
+.hero p {
+	font-family: Lato;
+	font-size: 3em;
+	text-align: center;
+	color: white;
+}
+
+.info {
+	height: 30%;
+}
+
+.times {
+	color: #252527;
+	text-align: center;
+	margin: 0 0 0 0;
+	height: 30%;
+	font-family: Lato;
+	line-height: 1em;
+	border-style-right: dashed;
+	border-right: 5px;
+	border-color: black;
+}
+
+.address {
+	color: #2d2d2f;
+	text-align: center;
+	margin: 0 0 0 0;;
+	height: 30%;
+	font-family: Lato;
+	border-style-left: dashed;
+	border-left: 5px;
+	border-color: black;
+}
+
+.times h3 {
+	padding-top: 35px;
+	color: #252527;
+}
+
+.address h3 {
+	padding-top: 35px;
+	color: #252527;
+}
+
+.address a {
+	color: #252527;
+}
+
+.address a:hover {
+	color: #252527;
+}
+
+.about {
+	font-family: Lato;
+	text-align: center;
+	margin: 25px auto 0 auto;
+	background: 
+	linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),url('../img/greeneville.jpg') center center fixed no-repeat;
+    background-size: cover;
+	color: white;
+	padding-bottom: 100px;
+}
+
+.about p {
+	max-width: 740px;
+	text-align: center;
+	color: white;
+	margin: 0 auto;
+	padding-top: 25px;
+}
+
+.about h3 {
+	color: white;
+	padding-top: 100px;
+}
+
+.announce {
+	font-family: Lato;
+	max-width: 740px;
+	text-align: left;
+	margin: 100px auto 0 auto;
+}
+
+.announce ul {
+	padding-top: 15px;
+}
+
+.announce h3 {
+	text-align: center;
+}
+
+.calendar {
+	height: 800px;
+	text-align: center;
+	margin-top: 400px;
+}
+
+.contact {
+	padding: 100px 0 100px 100px;
+	background: 
+	linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),url('../img/green.jpg') center center fixed no-repeat;
+    background-size: cover;
+	font-size: 1.2em;
+	color: white;
+}
+
+.contact h3 {
+	color: white;
+}
+
+.contact li {
+	list-style-type: none;
+}
+
+.contact span {
+	font-weight: bold;
+}
