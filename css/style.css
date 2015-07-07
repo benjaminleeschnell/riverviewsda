@@ -178,3 +178,223 @@ nav a {
 .contact span {
 	font-weight: bold;
 }
+
+@media screen and (max-width: 1000px) {
+	.hero {
+	margin-top: -5px;
+	height: 70%;
+	color: white;
+	background: 
+	linear-gradient(
+      rgba(0, 31, 97, 0.5),
+      rgba(0, 31, 97, 0.5)
+    ),url('../img/church.jpg') center center fixed no-repeat;
+    background-size: cover;
+}
+
+.hero h1 {
+	font-family: Playfair Display SC;
+	padding: 25% 0 0 0;
+	font-size: 4em;
+	text-align: center;
+	line-height: 1em;
+	color: white;
+}
+
+.hero p {
+	font-family: Lato;
+	font-size: 2.5em;
+	text-align: center;
+	color: white;
+}
+}
+
+@media screen and (max-width: 650px) {
+	.hero {
+	margin-top: -5px;
+	height: 70%;
+	color: white;
+	background: 
+	linear-gradient(
+      rgba(0, 31, 97, 0.5),
+      rgba(0, 31, 97, 0.5)
+    ),url('../img/church.jpg') center center fixed no-repeat;
+    background-size: cover;
+}
+
+.hero h1 {
+	font-family: Playfair Display SC;
+	padding: 30% 0 0 0;
+	font-size: 2em;
+	text-align: center;
+	line-height: 1em;
+	color: white;
+}
+
+.hero p {
+	font-family: Lato;
+	font-size: 1.5em;
+	text-align: center;
+	color: white;
+}
+
+.info {
+	height: 30%;
+}
+
+.times {
+	color: #252527;
+	text-align: center;
+	margin: 0 0 0 0;
+	height: 30%;
+	font-family: Lato;
+	line-height: 1em;
+}
+
+.address {
+	color: #2d2d2f;
+	text-align: center;
+	margin: 0 0 0 0;;
+	height: 30%;
+	font-family: Lato;
+}
+
+.times h3 {
+	padding-top: 35px;
+	color: #252527;
+	font-size: 1em;
+}
+
+.times p {
+	color: #252527;
+	font-size: 0.80em;
+}
+
+.address h3 {
+	padding-top: 35px;
+	color: #252527;
+	font-size: 1em;
+}
+
+.address a {
+	color: #252527;
+	font-size: 0.80em;
+}
+
+.address p {
+	color: #252527;
+	font-size: 0.80em;
+}
+
+.address a:hover {
+	color: #252527;
+}
+
+nav a {
+	font-size: 0.60em;
+}
+
+.logo img {
+	max-width: 75px;
+}
+
+}
+
+@media screen and (max-width: 400px) {
+	.hero {
+	margin-top: -5px;
+	height: 70%;
+	color: white;
+	background: 
+	linear-gradient(
+      rgba(0, 31, 97, 0.5),
+      rgba(0, 31, 97, 0.5)
+    ),url('../img/church.jpg') center center fixed no-repeat;
+    background-size: cover;
+}
+
+.hero h1 {
+	font-family: Playfair Display SC;
+	padding: 50% 0 0 0;
+	font-size: 1em;
+	text-align: center;
+	line-height: 1em;
+	color: white;
+}
+
+.hero p {
+	font-family: Lato;
+	font-size: 0.85em;
+	text-align: center;
+	color: white;
+}
+
+.info {
+	height: 30%;
+}
+
+.times {
+	color: #252527;
+	text-align: center;
+	margin: 0 0 0 0;
+	height: 30%;
+	font-family: Lato;
+	line-height: 1em;
+}
+
+.address {
+	color: #2d2d2f;
+	text-align: center;
+	margin: 0 0 0 0;;
+	height: 30%;
+	font-family: Lato;
+}
+
+.times h3 {
+	padding-top: 35px;
+	color: #252527;
+	font-size: 0.85em;
+}
+
+.times p {
+	color: #252527;
+	font-size: 0.70em;
+}
+
+.address h3 {
+	padding-top: 35px;
+	color: #252527;
+	font-size: 0.85em;
+}
+
+.address a {
+	color: #252527;
+	font-size: 0.70em;
+}
+
+.address p {
+	color: #252527;
+	font-size: 0.70em;
+}
+
+.address a:hover {
+	color: #252527;
+}
+
+nav a {
+	font-size: 0.60em;
+}
+
+.logo img {
+	max-width: 60px;
+}
+
+.contact {
+	padding-left: 4px;
+}
+
+nav {
+	padding-top: 25px;
+}
+
+}
