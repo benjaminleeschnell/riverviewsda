@@ -43,7 +43,10 @@ nav a {
       rgba(0, 31, 97, 0.5),
       rgba(0, 31, 97, 0.5)
     ),url('../img/church.jpg') center center fixed no-repeat;
-    background-size: cover;
+    -webkit-background-size: 100% auto;
+	-moz-background-size: 100% auto;
+	-o-background-size: 100% auto;
+	background-size: 100% auto;
 }
 
 .hero h1 {
@@ -116,7 +119,7 @@ nav a {
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.2)
     ),url('../img/greeneville.jpg') center center fixed no-repeat;
-    background-size: cover;
+    background-size: 100% auto;
 	color: white;
 	padding-bottom: 100px;
 }
@@ -162,7 +165,10 @@ nav a {
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)
     ),url('../img/green.jpg') center center fixed no-repeat;
-    background-size: cover;
+    -webkit-background-size: 100% auto;
+	-moz-background-size: 100% auto;
+	-o-background-size: 100% auto;
+	background-size: 100% auto;
 	font-size: 1.2em;
 	color: white;
 }
@@ -179,7 +185,11 @@ nav a {
 	font-weight: bold;
 }
 
-@media screen and (max-width: 1000px) {
+.contact a {
+	color: white;
+}
+
+@media only screen and (max-width: 1000px) {
 	.hero {
 	margin-top: -5px;
 	height: 70%;
@@ -189,7 +199,10 @@ nav a {
       rgba(0, 31, 97, 0.5),
       rgba(0, 31, 97, 0.5)
     ),url('../img/church.jpg') center center fixed no-repeat;
-    background-size: cover;
+    -webkit-background-size: 100% auto;
+	-moz-background-size: 100% auto;
+	-o-background-size: 100% auto;
+	background-size: 100% auto;
 }
 
 .hero h1 {
@@ -207,9 +220,14 @@ nav a {
 	text-align: center;
 	color: white;
 }
+
+.join {
+	display: none;
 }
 
-@media screen and (max-width: 650px) {
+}
+
+@media only screen and (max-width: 650px) {
 	.hero {
 	margin-top: -5px;
 	height: 70%;
@@ -219,7 +237,10 @@ nav a {
       rgba(0, 31, 97, 0.5),
       rgba(0, 31, 97, 0.5)
     ),url('../img/church.jpg') center center fixed no-repeat;
-    background-size: cover;
+    -webkit-background-size: 100% auto;
+	-moz-background-size: 100% auto;
+	-o-background-size: 100% auto;
+	background-size: 100% auto;
 }
 
 .hero h1 {
@@ -239,7 +260,7 @@ nav a {
 }
 
 .info {
-	height: 30%;
+	height: 60%;
 }
 
 .times {
@@ -298,9 +319,42 @@ nav a {
 	max-width: 75px;
 }
 
+.join {
+	display: none;
 }
 
-@media screen and (max-width: 400px) {
+.contact {
+	padding: 100px 0 100px 4px;
+	background: 
+	linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),url('../img/green.jpg') center center fixed no-repeat;
+    -webkit-background-size: 100% auto;
+	-moz-background-size: 100% auto;
+	-o-background-size: 100% auto;
+	background-size: 100% auto;
+	font-size: 1.2em;
+	color: white;
+}
+
+.about {
+	font-family: Lato;
+	text-align: center;
+	margin: 25px auto 0 auto;
+	background: 
+	linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),url('../img/greeneville.jpg') center center fixed no-repeat;
+    background-size: 100% auto;
+	color: white;
+	padding-bottom: 100px;
+}
+
+}
+
+@media only screen and (max-width: 400px) {
 	.hero {
 	margin-top: -5px;
 	height: 70%;
@@ -310,7 +364,14 @@ nav a {
       rgba(0, 31, 97, 0.5),
       rgba(0, 31, 97, 0.5)
     ),url('../img/church.jpg') center center fixed no-repeat;
-    background-size: cover;
+    -webkit-background-size: 100% auto;
+	-moz-background-size: 100% auto;
+	-o-background-size: 100% auto;
+	background-size: 100% auto;
+}
+
+.join {
+	display: none;
 }
 
 .hero h1 {
@@ -330,7 +391,7 @@ nav a {
 }
 
 .info {
-	height: 30%;
+	height: 60%;
 }
 
 .times {
@@ -393,8 +454,11 @@ nav a {
 	padding-left: 4px;
 }
 
+.contact a {
+	color: white;
+}
+
 nav {
 	padding-top: 25px;
 }
-
 }
